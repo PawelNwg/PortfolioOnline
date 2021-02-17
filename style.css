@@ -129,7 +129,7 @@ section{
 }
 
 .about .about-content, 
-.services .serv-content,
+.projects .proj-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -138,7 +138,7 @@ section{
     justify-content: space-between;
 }
 
-.about, .services, .skills, .teams, .contact, footer{
+.about, .projects, .skills, .socials, .contact, footer{
     font-family: 'Poppins', sans-serif;       
 }
 
@@ -180,7 +180,7 @@ section .title::after{
 .home
 {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/bannernew1.jpg") no-repeat center;
     height: 100vh;
     color: #ffffff;
     min-height: 500px;
@@ -243,7 +243,7 @@ section .title::after{
     content: "who i am";
 }
 
-.about .about-content, .serv-content .services {
+.about .about-content, .proj-content .projects {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -297,24 +297,24 @@ section .title::after{
     color: #311b92;
 }
 
-/* services */
-.services, .teams{
-    background: #000000;
+/* projects */
+.projects, .socials{
+    background: url("images/bannernew1.jpg") no-repeat center;
     color: #ffffff;
 }
 
-.services .title::before,
- .teams .title::before{
+.projects .title::before,
+ .socials .title::before{
     background: #ffffff;
 }
 
-.services .title::after,
- .teams .title::after{
+.projects .title::after,
+ .socials .title::after{
     background: #000000;
     content: "what i did";
 }
 
-.services .serv-content .card{
+.projects .proj-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -325,7 +325,7 @@ section .title::after{
     transition: all 1s ease;
 }
 
-.services .serv-content .card:hover{
+.projects .proj-content .card:hover{
 
     background: #311b92;
 }
@@ -416,23 +416,23 @@ section .title::after{
     width: 50%;
 }
 
-/* teams */
-.teams .title::after{
+/* socials */
+.socials .title::after{
     content: "find me here";
 }
 
-.teams .carousel .card{
+.socials .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover{
+.socials .carousel .card:hover{
     background: #311b92;
 }
 
-.teams .carousel .card .box{
+.socials .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -441,26 +441,26 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover .box{
+.socials .carousel .card:hover .box{
     transform: scale(1.05);
 }
 
-.teams .carousel .card .text{   
+.socials .carousel .card .text{   
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-.teams .carousel a{
+.socials .carousel a{
     color: #ffffff;
     text-decoration: none;
 }
 
-.teams .carousel .card .box p{
+.socials .carousel .card .box p{
     padding-top: 20px;
 }
 
-.teams .carousel .card img{
+.socials .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -617,7 +617,7 @@ section .title::after{
 /* footer */
 
 footer{
-    background: #111;
+    background: url("images/bannernew1.jpg") no-repeat center;
     padding: 20px 23px;
     color: #311b92;
     text-align: center;
@@ -728,7 +728,7 @@ footer:hover {
         font-size: 20px;
     }
 
-    .services .serv-content .card,
+    .projects .proj-content .card,
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
