@@ -25,14 +25,14 @@ $(document).ready(function(){
 
     // typing
     var typed = new Typed(".typing", {
-        strings: ["Software Dev","Programmer","Student","Team Player"],
+        strings: ["Software Dev","Programmer","Student","Team Player","Geek ( ͡~ ͜ʖ ͡°)", "C# fan"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Software Dev","Programmer","Student","Team Player"],
+        strings: ["Software Dev","Programmer","Student","Team Player","Java fan"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
