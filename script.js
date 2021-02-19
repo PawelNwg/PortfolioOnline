@@ -25,7 +25,7 @@ $(document).ready(function(){
 
     // typing
     var typed = new Typed(".typing", {
-        strings: ["Software Dev","Programmer","Student","Team Player","Geek ( ͡~ ͜ʖ ͡°)", "C# fan"],
+        strings: ["Junior Software Dev","Programmer","Student","Team Player","Geek ( ͡~ ͜ʖ ͡°)", "C# fan"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
